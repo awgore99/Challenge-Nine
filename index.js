@@ -4,9 +4,8 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-const questions = () => {
+const questions = [
     // Runs each question through inquirer
-    return inquirer.prompt([
         {
             type: "input",
             message: "What is the title of your application?",
@@ -53,11 +52,7 @@ const questions = () => {
             message: "What is your email accociated with your GitHub?",
             name: "email"
         },
-    ])
-        .then(input => {
-            return input;
-        });
-};
+    ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
