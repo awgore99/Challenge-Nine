@@ -1,22 +1,16 @@
-# undefined
-##Description
+# ReadMe Generator
+## Description
+Takes input from the user to generate a readme file
+## Installation
+run npm i and then node index.js
+## Usage
+Generate as many ReadMe's as needed!
+## License
 undefined
-##Intallation
-undefined
-##Usage
-undefined
-##License
-undefined
-function renderLicenseBadge(license) {
-  if (license === 'MIT') {
-    return license = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-  } if (license === 'none') {
-    return license = ''
-  }
-}
-##Contributing
-undefined
-##Tests
-undefined
-##Further Information
-Contact me at undefined or undefined
+
+## Contributing
+contact me directly
+## Tests
+N/A
+## Further Information
+Contact me at awgore99 on github or awgore99@gmail.com
